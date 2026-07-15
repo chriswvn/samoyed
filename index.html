@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Samoyed - The Smiling Dog</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      line-height: 1.6;
+      color: #2d3748;
+      background: #f7fafc;
+    }
+    header {
+      background: linear-gradient(135deg, #2b6cb0, #4299e1);
+      color: white;
+      padding: 3rem 2rem;
+      text-align: center;
+    }
+    header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+    header p { font-size: 1.2rem; opacity: 0.9; }
+    nav {
+      background: #1a365d;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+    nav a {
+      color: #bee3f8;
+      text-decoration: none;
+      margin: 0 1rem;
+      font-weight: 500;
+    }
+    nav a:hover { color: white; }
+    main { max-width: 1000px; margin: 2rem auto; padding: 0 2rem; }
+    section { margin-bottom: 3rem; }
+    h2 {
+      font-size: 1.8rem;
+      color: #2b6cb0;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #bee3f8;
+      padding-bottom: 0.5rem;
+    }
+    .image-gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+      gap: 2rem;
+      margin: 2rem 0;
+    }
+    .image-card {
+      background: white;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    .image-card img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+    .image-card .caption {
+      padding: 1rem;
+    }
+    .image-card .caption h3 { margin-bottom: 0.3rem; color: #2d3748; }
+    .image-card .caption p { color: #718096; font-size: 0.9rem; }
+    .info-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin: 1.5rem 0;
+    }
+    .info-box {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 8px;
+      border-left: 4px solid #4299e1;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+    .info-box h3 { color: #2b6cb0; margin-bottom: 0.5rem; }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1rem 0;
+      background: white;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    }
+    th, td { padding: 0.75rem 1rem; text-align: left; }
+    th { background: #ebf8ff; color: #2b6cb0; }
+    tr:nth-child(even) { background: #f7fafc; }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #1a365d;
+      color: #a0aec0;
+      margin-top: 3rem;
+    }
+    footer a { color: #90cdf4; }
+    .lang-switcher {
+      position: fixed;
+      top: 1rem;
+      right: 1rem;
+      background: white;
+      padding: 0.5rem 1rem;
+      border-radius: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+      z-index: 100;
+    }
+    .lang-switcher a { text-decoration: none; margin: 0 0.5rem; }
+  </style>
+</head>
+<body>
+  <div class="lang-switcher">
+    <a href="index.html"><strong>EN</strong></a> |
+    <a href="ja.html">日本語</a>
+  </div>
+
+  <header>
+    <h1>The Samoyed</h1>
+    <p>A comprehensive guide to the world's happiest dog breed</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#characteristics">Characteristics</a>
+    <a href="#care">Care Guide</a>
+    <a href="#history">History</a>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About the Samoyed</h2>
+      <p>The Samoyed is a large herding dog breed that originated in Siberia. Known for their beautiful white coat and characteristic "Samoyed smile," these dogs were originally bred by the Samoyede people for herding reindeer, pulling sleds, and keeping their owners warm during cold Siberian nights.</p>
+      <p style="margin-top: 1rem;">Their friendly and gentle temperament makes them excellent family dogs. They are known for being particularly good with children and other pets, making them one of the most popular companion breeds worldwide.</p>
+    </section>
+
+    <section id="gallery">
+      <h2>Gallery</h2>
+      <div class="image-gallery">
+        <div class="image-card">
+          <img src="images/samoyed-portrait.png" alt="Samoyed portrait illustration showing the breed's characteristic smile">
+          <div class="caption">
+            <h3>The Famous Samoyed Smile</h3>
+            <p>The upturned corners of the Samoyed's mouth create their characteristic smile, which also prevents drooling in cold weather.</p>
+          </div>
+        </div>
+        <div class="image-card">
+          <img src="images/samoyed-snow.jpg" alt="Samoyed playing in the snow, their natural habitat">
+          <div class="caption">
+            <h3>Born for Winter</h3>
+            <p>With their thick double coat, Samoyeds thrive in cold weather and love playing in the snow.</p>
+          </div>
+        </div>
+        <div class="image-card">
+          <img src="images/samoyed-facts.svg" alt="Infographic showing key Samoyed breed facts including weight, lifespan, and temperament">
+          <div class="caption">
+            <h3>Breed Quick Facts</h3>
+            <p>Essential information about the Samoyed breed at a glance.</p>
+          </div>
+        </div>
+        <div class="image-card">
+          <img src="images/adoption-event-banner.jpg" alt="Bilingual adoption event banner in English and Japanese">
+          <div class="caption">
+            <h3>Community Events</h3>
+            <p>Samoyed lovers around the world organize adoption events and meetups.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="characteristics">
+      <h2>Breed Characteristics</h2>
+      <div class="info-grid">
+        <div class="info-box">
+          <h3>Size</h3>
+          <p>Males: 53-60 cm tall, 20-30 kg<br>Females: 48-53 cm tall, 16-20 kg</p>
+        </div>
+        <div class="info-box">
+          <h3>Coat</h3>
+          <p>Dense, double-layered coat. White, cream, or biscuit colored. Requires regular grooming.</p>
+        </div>
+        <div class="info-box">
+          <h3>Temperament</h3>
+          <p>Friendly, gentle, and adaptable. Excellent with children. Can be stubborn but eager to please.</p>
+        </div>
+        <div class="info-box">
+          <h3>Exercise Needs</h3>
+          <p>Moderate to high. Needs at least 1-2 hours of exercise daily. Enjoys hiking, running, and pulling activities.</p>
+        </div>
+      </div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Attribute</th>
+            <th>Rating</th>
+            <th>Notes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Friendliness</td>
+            <td>★★★★★</td>
+            <td>Extremely friendly with everyone</td>
+          </tr>
+          <tr>
+            <td>Energy Level</td>
+            <td>★★★★☆</td>
+            <td>Active but not hyperactive</td>
+          </tr>
+          <tr>
+            <td>Trainability</td>
+            <td>★★★☆☆</td>
+            <td>Intelligent but independent</td>
+          </tr>
+          <tr>
+            <td>Grooming Needs</td>
+            <td>★★★★★</td>
+            <td>High maintenance coat</td>
+          </tr>
+          <tr>
+            <td>Cold Tolerance</td>
+            <td>★★★★★</td>
+            <td>Thrives in cold climates</td>
+          </tr>
+          <tr>
+            <td>Heat Tolerance</td>
+            <td>★★☆☆☆</td>
+            <td>Sensitive to hot weather</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <section id="care">
+      <h2>Care Guide</h2>
+      <h3>Grooming</h3>
+      <p>Samoyeds have a magnificent double coat that requires consistent care. Brush your Samoyed at least 2-3 times per week, and daily during shedding season (known as "blowing coat"). Their white fur is surprisingly self-cleaning due to the coat's texture.</p>
+
+      <h3 style="margin-top: 1.5rem;">Nutrition</h3>
+      <p>Feed your Samoyed a high-quality dog food appropriate for their age, size, and activity level. Adults typically need 2-3 cups of food per day, divided into two meals. Avoid overfeeding as Samoyeds can be prone to weight gain.</p>
+
+      <h3 style="margin-top: 1.5rem;">Health Considerations</h3>
+      <ul style="margin: 0.5rem 0 0 2rem;">
+        <li>Hip dysplasia - regular screening recommended</li>
+        <li>Progressive retinal atrophy - eye exams important</li>
+        <li>Diabetes mellitus - monitor blood sugar</li>
+        <li>Samoyed hereditary glomerulopathy - kidney condition</li>
+      </ul>
+    </section>
+
+    <section id="history">
+      <h2>History and Origin</h2>
+      <p>The Samoyed breed takes its name from the Samoyede people of Siberia, who relied on these dogs for survival in the harsh Arctic conditions. For thousands of years, these dogs served as herders, hunters, and sled dogs.</p>
+      <p style="margin-top: 1rem;">In the late 19th and early 20th centuries, Samoyeds were brought to England by Arctic explorers. The breed gained popularity quickly due to their striking appearance and gentle nature. Notable expeditions that used Samoyeds include Fridtjof Nansen's North Pole expedition in 1893 and Ernest Shackleton's Antarctic expedition.</p>
+      <p style="margin-top: 1rem;">Today, Samoyeds are primarily companion animals, though they still excel in activities like agility, herding trials, and sled dog racing. Their popularity continues to grow worldwide, with active breed communities in North America, Europe, and Asia.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Samoyed Information Site. Built for testing purposes.</p>
+    <p style="margin-top: 0.5rem;"><a href="ja.html">日本語版はこちら</a></p>
+  </footer>
+</body>
+</html>

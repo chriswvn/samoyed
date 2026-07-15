@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <rect width="800" height="600" fill="#fffbeb"/>
+
+  <!-- Title -->
+  <text x="400" y="50" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="30" font-weight="bold" fill="#92400e">サモエド犬について</text>
+  <text x="400" y="85" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" fill="#78350f">〜 シベリア生まれの白い天使 〜</text>
+
+  <!-- Samoyed face -->
+  <g transform="translate(400, 230)">
+    <ellipse cx="0" cy="0" rx="80" ry="75" fill="white" stroke="#fbbf24" stroke-width="2"/>
+    <ellipse cx="-45" cy="-50" rx="20" ry="35" fill="white" stroke="#fbbf24" stroke-width="2"/>
+    <ellipse cx="45" cy="-50" rx="20" ry="35" fill="white" stroke="#fbbf24" stroke-width="2"/>
+    <circle cx="-25" cy="-10" r="10" fill="#333"/>
+    <circle cx="25" cy="-10" r="10" fill="#333"/>
+    <circle cx="-25" cy="-13" r="3" fill="white"/>
+    <circle cx="25" cy="-13" r="3" fill="white"/>
+    <ellipse cx="0" cy="15" rx="12" ry="8" fill="#333"/>
+    <path d="M -25 30 Q 0 50 25 30" stroke="#333" stroke-width="3" fill="none"/>
+  </g>
+
+  <!-- Info cards -->
+  <rect x="50" y="350" width="200" height="120" rx="12" fill="white" stroke="#f59e0b" stroke-width="2"/>
+  <text x="150" y="385" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold" fill="#92400e">原産地</text>
+  <text x="150" y="415" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#4a5568">ロシア・シベリア地方</text>
+  <text x="150" y="445" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#718096">サモエド族と共に暮らした</text>
+
+  <rect x="300" y="350" width="200" height="120" rx="12" fill="white" stroke="#f59e0b" stroke-width="2"/>
+  <text x="400" y="385" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold" fill="#92400e">性格</text>
+  <text x="400" y="415" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#4a5568">温厚で人懐っこい</text>
+  <text x="400" y="445" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#718096">「サモエドスマイル」が特徴</text>
+
+  <rect x="550" y="350" width="200" height="120" rx="12" fill="white" stroke="#f59e0b" stroke-width="2"/>
+  <text x="650" y="385" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="16" font-weight="bold" fill="#92400e">お手入れ</text>
+  <text x="650" y="415" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#4a5568">毎日のブラッシング必須</text>
+  <text x="650" y="445" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="12" fill="#718096">換毛期は特に注意が必要</text>
+
+  <!-- Bottom text -->
+  <text x="400" y="520" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="18" fill="#92400e">サモエドは世界で最も美しい犬種の一つです</text>
+  <text x="400" y="555" text-anchor="middle" font-family="'Hiragino Sans', 'Noto Sans JP', sans-serif" font-size="14" fill="#78350f">家族との時間を何より大切にする、愛情深い犬です</text>
+</svg>
