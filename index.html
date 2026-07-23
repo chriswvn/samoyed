@@ -1,105 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Samoyed - The Smiling Dog</title>
-  <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      line-height: 1.6;
-      color: #2d3748;
-      background: #f7fafc;
-    }
-    header {
-      background: linear-gradient(135deg, #2b6cb0, #4299e1);
-      color: white;
-      padding: 3rem 2rem;
-      text-align: center;
-    }
-    header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
-    header p { font-size: 1.2rem; opacity: 0.9; }
-    nav {
-      background: #1a365d;
-      padding: 1rem 2rem;
-      text-align: center;
-    }
-    nav a {
-      color: #bee3f8;
-      text-decoration: none;
-      margin: 0 1rem;
-      font-weight: 500;
-    }
-    nav a:hover { color: white; }
-    main { max-width: 1000px; margin: 2rem auto; padding: 0 2rem; }
-    section { margin-bottom: 3rem; }
-    h2 {
-      font-size: 1.8rem;
-      color: #2b6cb0;
-      margin-bottom: 1rem;
-      border-bottom: 2px solid #bee3f8;
-      padding-bottom: 0.5rem;
-    }
-    .image-gallery {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-      gap: 2rem;
-      margin: 2rem 0;
-    }
-    .image-card {
-      background: white;
-      border-radius: 12px;
-      overflow: hidden;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    }
-    .image-card img {
-      width: 100%;
-      height: 300px;
-      object-fit: cover;
-    }
-    .image-card .caption {
-      padding: 1rem;
-    }
-    .image-card .caption h3 { margin-bottom: 0.3rem; color: #2d3748; }
-    .image-card .caption p { color: #718096; font-size: 0.9rem; }
-    .info-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 1.5rem;
-      margin: 1.5rem 0;
-    }
-    .info-box {
-      background: white;
-      padding: 1.5rem;
-      border-radius: 8px;
-      border-left: 4px solid #4299e1;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-    }
-    .info-box h3 { color: #2b6cb0; margin-bottom: 0.5rem; }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin: 1rem 0;
-      background: white;
-      border-radius: 8px;
-      overflow: hidden;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-    }
-    th, td { padding: 0.75rem 1rem; text-align: left; }
-    th { background: #ebf8ff; color: #2b6cb0; }
-    tr:nth-child(even) { background: #f7fafc; }
-    footer {
-      text-align: center;
-      padding: 2rem;
-      background: #1a365d;
-      color: #a0aec0;
-      margin-top: 3rem;
-    }
-    footer a { color: #90cdf4; }
-  </style>
+  <link rel="stylesheet" href="styles.css">
   <script src="https://j.wovn.io/1" data-wovnio="key=SvTFz7" async></script>
 </head>
+
 <body>
   <header>
     <h1>The Samoyed</h1>
@@ -117,18 +26,24 @@
   <main>
     <section id="about">
       <h2>About the Samoyed</h2>
-      <p>The Samoyed is a large herding dog breed that originated in Siberia. Known for their beautiful white coat and characteristic "Samoyed smile," these dogs were originally bred by the Samoyede people for herding reindeer, pulling sleds, and keeping their owners warm during cold Siberian nights.</p>
-      <p style="margin-top: 1rem;">Their friendly and gentle temperament makes them excellent family dogs. They are known for being particularly good with children and other pets, making them one of the most popular companion breeds worldwide.</p>
+      <p>The Samoyed is a large herding dog breed that originated in Siberia. Known for their beautiful white coat and
+        characteristic "Samoyed smile," these dogs were originally bred by the Samoyede people for herding reindeer,
+        pulling sleds, and keeping their owners warm during cold Siberian nights.</p>
+      <p style="margin-top: 1rem;">Their friendly and gentle temperament makes them excellent family dogs. They are
+        known for being particularly good with children and other pets, making them one of the most popular companion
+        breeds worldwide.</p>
     </section>
 
     <section id="gallery">
       <h2>Gallery</h2>
       <div class="image-gallery">
         <div class="image-card">
-          <img src="images/samoyed-portrait.png" alt="Samoyed portrait illustration showing the breed's characteristic smile">
+          <img src="images/samoyed-portrait.png"
+            alt="Samoyed portrait illustration showing the breed's characteristic smile">
           <div class="caption">
             <h3>The Famous Samoyed Smile</h3>
-            <p>The upturned corners of the Samoyed's mouth create their characteristic smile, which also prevents drooling in cold weather.</p>
+            <p>The upturned corners of the Samoyed's mouth create their characteristic smile, which also prevents
+              drooling in cold weather.</p>
           </div>
         </div>
         <div class="image-card">
@@ -139,14 +54,15 @@
           </div>
         </div>
         <div class="image-card">
-          <img src="images/samoyed-facts.svg" alt="Infographic showing key Samoyed breed facts including weight, lifespan, and temperament">
+          <img src="images/samoyed-facts.svg"
+            alt="Infographic showing key Samoyed breed facts including weight, lifespan, and temperament">
           <div class="caption">
             <h3>Breed Quick Facts</h3>
             <p>Essential information about the Samoyed breed at a glance.</p>
           </div>
         </div>
         <div class="image-card">
-          <img src="images/adoption-event-banner.jpg" alt="Bilingual adoption event banner in English and Japanese">
+          <img src="images/adoption-event-banner-en.svg" alt="Samoyed adoption event banner">
           <div class="caption">
             <h3>Community Events</h3>
             <p>Samoyed lovers around the world organize adoption events and meetups.</p>
@@ -172,7 +88,8 @@
         </div>
         <div class="info-box">
           <h3>Exercise Needs</h3>
-          <p>Moderate to high. Needs at least 1-2 hours of exercise daily. Enjoys hiking, running, and pulling activities.</p>
+          <p>Moderate to high. Needs at least 1-2 hours of exercise daily. Enjoys hiking, running, and pulling
+            activities.</p>
         </div>
       </div>
 
@@ -222,10 +139,14 @@
     <section id="care">
       <h2>Care Guide</h2>
       <h3>Grooming</h3>
-      <p>Samoyeds have a magnificent double coat that requires consistent care. Brush your Samoyed at least 2-3 times per week, and daily during shedding season (known as "blowing coat"). Their white fur is surprisingly self-cleaning due to the coat's texture.</p>
+      <p>Samoyeds have a magnificent double coat that requires consistent care. Brush your Samoyed at least 2-3 times
+        per week, and daily during shedding season (known as "blowing coat"). Their white fur is surprisingly
+        self-cleaning due to the coat's texture.</p>
 
       <h3 style="margin-top: 1.5rem;">Nutrition</h3>
-      <p>Feed your Samoyed a high-quality dog food appropriate for their age, size, and activity level. Adults typically need 2-3 cups of food per day, divided into two meals. Avoid overfeeding as Samoyeds can be prone to weight gain.</p>
+      <p>Feed your Samoyed a high-quality dog food appropriate for their age, size, and activity level. Adults typically
+        need 2-3 cups of food per day, divided into two meals. Avoid overfeeding as Samoyeds can be prone to weight
+        gain.</p>
 
       <h3 style="margin-top: 1.5rem;">Health Considerations</h3>
       <ul style="margin: 0.5rem 0 0 2rem;">
@@ -238,9 +159,15 @@
 
     <section id="history">
       <h2>History and Origin</h2>
-      <p>The Samoyed breed takes its name from the Samoyede people of Siberia, who relied on these dogs for survival in the harsh Arctic conditions. For thousands of years, these dogs served as herders, hunters, and sled dogs.</p>
-      <p style="margin-top: 1rem;">In the late 19th and early 20th centuries, Samoyeds were brought to England by Arctic explorers. The breed gained popularity quickly due to their striking appearance and gentle nature. Notable expeditions that used Samoyeds include Fridtjof Nansen's North Pole expedition in 1893 and Ernest Shackleton's Antarctic expedition.</p>
-      <p style="margin-top: 1rem;">Today, Samoyeds are primarily companion animals, though they still excel in activities like agility, herding trials, and sled dog racing. Their popularity continues to grow worldwide, with active breed communities in North America, Europe, and Asia.</p>
+      <p>The Samoyed breed takes its name from the Samoyede people of Siberia, who relied on these dogs for survival in
+        the harsh Arctic conditions. For thousands of years, these dogs served as herders, hunters, and sled dogs.</p>
+      <p style="margin-top: 1rem;">In the late 19th and early 20th centuries, Samoyeds were brought to England by Arctic
+        explorers. The breed gained popularity quickly due to their striking appearance and gentle nature. Notable
+        expeditions that used Samoyeds include Fridtjof Nansen's North Pole expedition in 1893 and Ernest Shackleton's
+        Antarctic expedition.</p>
+      <p style="margin-top: 1rem;">Today, Samoyeds are primarily companion animals, though they still excel in
+        activities like agility, herding trials, and sled dog racing. Their popularity continues to grow worldwide, with
+        active breed communities in North America, Europe, and Asia.</p>
     </section>
   </main>
 
@@ -249,4 +176,5 @@
     <p style="margin-top: 0.5rem;"><a href="ja.html">日本語版はこちら</a></p>
   </footer>
 </body>
+
 </html>

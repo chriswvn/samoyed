@@ -1,0 +1,53 @@
+body {
+  font-family: 'Hiragino Sans', 'Noto Sans JP', -apple-system, BlinkMacSystemFont, sans-serif;
+  line-height: 1.8;
+  background: #fffbeb;
+}
+
+header {
+  background: linear-gradient(135deg, #92400e, #d97706);
+}
+
+nav {
+  background: #78350f;
+}
+
+nav a {
+  color: #fef3c7;
+}
+
+h2 {
+  color: #92400e;
+  border-bottom-color: #fcd34d;
+}
+
+.info-box {
+  border-left-color: #d97706;
+}
+
+.info-box h3 {
+  color: #92400e;
+}
+
+th {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+tr:nth-child(even) {
+  background: #fffbeb;
+}
+
+footer {
+  background: #78350f;
+  color: #d4a574;
+}
+
+footer a {
+  color: #fcd34d;
+}
+
+.highlight-box {
+  background: #fef3c7;
+  border-color: #f59e0b;
+}
